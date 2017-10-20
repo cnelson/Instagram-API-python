@@ -27,7 +27,6 @@ except:
     from .ImageUtils import getImageSize
 
 from requests_toolbelt import MultipartEncoder
-from moviepy.editor import VideoFileClip
 
 class InstagramAPI:
     API_URL = 'https://i.instagram.com/api/v1/'
